@@ -348,7 +348,6 @@
   background-color: #1f1f1f;
   color: #fff;
   overflow: hidden;
-  position: relative;
   box-sizing: border-box;
   display: flex;
   justify-content: space-around;
@@ -361,6 +360,7 @@
   font-weight: 500;
   z-index: 1;
   max-width: 154px;
+  order: 1;
 }
 
 .about__content {
@@ -368,7 +368,8 @@
   line-height: 30px;
   font-weight: 400;
   max-width: 660px;
-  margin-left: 120px;
+  z-index: 1;
+  order: 2;
 }
 
 .about__paragraph {
@@ -381,6 +382,10 @@
   height: 495px;
   border-radius: 50%;
   z-index: 0;
+  order: 0;
+  position: relative;
+  left: -91px;
+  top: -121px;
 }
 
 .footer {
