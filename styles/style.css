@@ -229,6 +229,8 @@
 
 .staff {
   padding: 100px 0 140px;
+  background-image: url(../images/staff_picks_background.jpg);
+  background-size: cover;
 }
 
 .staff__title {
@@ -236,6 +238,7 @@
   font-size: 44px;
   line-height: 52px;
   margin: 0 0 24px;
+  color: white;
 }
 
 .staff__subtitle {
@@ -244,28 +247,26 @@
   line-height: 30px;
   font-weight: 400;
   margin: 0;
+  color: white;
 }
 
 .staff__summary {
-  max-width: 760px;
-  margin-right: auto;
-  margin-left: auto;
+  margin-top: 68px;
+  width: 420px;
+  height: 360px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   gap: 40px;
 }
 
 .card {
+  max-width: 760px;
   background-color: #fff;
   border-radius: 6px;
   padding: 32px 40px 20px 32px;
   box-sizing: border-box;
-  height: 360px;
-  width: 420px;
-  margin-top: auto;
   list-style-type: none;
-  padding-left: 0px;
 }
 
 .card__content {
