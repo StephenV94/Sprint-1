@@ -252,16 +252,16 @@
 
 .staff__summary {
   margin-top: 68px;
-  width: 420px;
-  height: 360px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  max-width: 760px;
   gap: 40px;
 }
 
 .card {
-  max-width: 760px;
+  width: 360px;
+  height: 420px;
   background-color: #fff;
   border-radius: 6px;
   padding: 32px 40px 20px 32px;
