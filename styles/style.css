@@ -93,6 +93,7 @@
   align-items: start;
   justify-content: space-between;
   box-sizing: border-box;
+  background-color: #f2f2f2;
 }
 
 .events__content {
@@ -245,13 +246,27 @@
   margin: 0;
 }
 
-/* Add the CSS rule for your new class here. Make sure to place it before .card: parents should precede their children */
+.staff__summary {
+  max-width: 760px;
+  margin-top: 68px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 .card {
   background-color: #fff;
   border-radius: 6px;
   padding: 32px 40px 20px 32px;
   box-sizing: border-box;
+  height: 360px;
+  width: 420px;
+  margin-top: auto;
+  list-style-type: none;
+  padding-left: 0px;
 }
 
 .card__content {
