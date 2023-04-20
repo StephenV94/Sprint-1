@@ -350,6 +350,8 @@
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
 }
 
 .about__title {
@@ -376,6 +378,8 @@
   width: 495px;
   height: 495px;
   border-radius: 50%;
+  z-index: 0;
+  position: relative;
 }
 
 .footer {
