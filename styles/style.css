@@ -350,7 +350,7 @@
   overflow: hidden;
   box-sizing: border-box;
   display: flex;
-  justify-content: space-around;
+  position: relative;
 }
 
 .about__title {
@@ -361,6 +361,7 @@
   z-index: 1;
   max-width: 154px;
   order: 1;
+  padding-right: 120px;
 }
 
 .about__content {
@@ -383,7 +384,7 @@
   border-radius: 50%;
   z-index: 0;
   order: 0;
-  position: relative;
+  position: absolute;
   left: -91px;
   top: -121px;
 }
