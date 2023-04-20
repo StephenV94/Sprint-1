@@ -391,11 +391,21 @@
 
 .footer {
   box-sizing: border-box;
-  background-color: #000000;
+  background-color: #1f1f1f;
 }
 
 .footer__columns {
   color: white;
+  padding-left: 80px;
+  padding-right: 102px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 100px;
+}
+
+.footer__column {
+  color: white;
+  margin-right: auto;
 }
 
 .footer__column_content_hours {
@@ -408,6 +418,10 @@
 
 .footer__logo {
   color: white;
+  height: 21px;
+  width: 116px;
+  margin-right: auto;
+  padding-bottom: 108px;
 }
 
 .footer__list {
@@ -437,4 +451,5 @@
 }
 
 .footer__copyright {
+  justify-self: flex-start;
 }
