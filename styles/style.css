@@ -259,7 +259,7 @@
 }
 
 .staff__cards {
-  margin-top: 68px 0 0;
+  margin: 68px auto 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -307,6 +307,7 @@
 
 .membership {
   background-color: #f2f2f2;
+  padding: 100px 0 140px;
 }
 
 .membership__title {
@@ -378,6 +379,10 @@
 }
 
 .about__paragraph {
+  margin: 0 0 32px;
+}
+
+.about__paragraph:before {
   margin: 0 0 32px;
 }
 
