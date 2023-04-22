@@ -326,6 +326,7 @@
   display: flex;
   justify-content: center;
   gap: 40px;
+  padding: 0;
 }
 
 .step {
@@ -379,11 +380,11 @@
   order: 2;
 }
 
-.about__paragraph {
-  margin: 0 0 32px;
+.about__paragraph:last-child {
+  margin-bottom: 0;
 }
 
-.about__paragraph:before {
+.about__paragraph {
   margin: 0 0 32px;
 }
 
